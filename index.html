@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ledger Nilai — X TK 1 TP 2026/2027</title>
+<title>Ledger Nilai — XI TK1 TP 2026/2027</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -290,14 +290,14 @@ tr:last-child td{border-bottom:none;}
 
 <div class="topbar">
   <div class="topbar-brand">
-    <div class="topbar-logo">AK</div>
+    <div class="topbar-logo">TK1</div>
     <div class="topbar-title">
-      Ledger Nilai — X TK1
+      Ledger Nilai — XI TK1
       <span id="tb-sub">Semester Ganjil · TP 2026/2027</span>
     </div>
   </div>
   <div class="topbar-actions">
-    <a href="https://alex-bahy.github.io/Portal-Kelas-XTJKT2-TP-2026-2027/" class="btn btn-back">← <span class="btn-label">Kembali ke Portal</span></a>
+    <a href="https://alex-bahy.github.io/Portal-Kelas-XITK1-ganjil-TP-2026-2027/" class="btn btn-back">← <span class="btn-label">Kembali ke Portal</span></a>
     <button class="btn btn-reload" onclick="loadData(true)">↻ <span class="btn-label">Refresh Data</span></button>
     <button class="btn btn-excel" onclick="downloadExcel()">⬇ <span class="btn-label">Excel</span></button>
     <button class="btn btn-pdf" onclick="downloadPDF()">⬇ <span class="btn-label">PDF</span></button>
@@ -310,7 +310,7 @@ tr:last-child td{border-bottom:none;}
     <div class="hero-top">
       <div>
         <h1>Ledger Nilai <em id="h-sem">Semester Ganjil</em></h1>
-        <p>Kelas X Teknik Ketenagalistrikan 1 (X TK1) · Tahun Pelajaran 2026/2027</p>
+        <p>Kelas XI Teknik Ketenagalistrikan 1 (XI TK1) · Tahun Pelajaran 2026/2027</p>
       </div>
       <div class="sem-switch" role="tablist" aria-label="Pilih semester">
         <button class="sem-btn active" id="sem-ganjil" onclick="setSemester('ganjil')">Semester Ganjil</button>
@@ -351,18 +351,18 @@ tr:last-child td{border-bottom:none;}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 // ═══════════ KONFIGURASI ═══════════
-const KELAS_SHORT = 'X TK 1';
+const KELAS_SHORT = 'XI TK1';
 const KELAS_FULL  = 'Teknik Ketenagalistrikan 1';
 const TP          = '2026/2027';
 
 const SEMESTER = {
   ganjil: {
     label: 'Ganjil',
-    url: 'https://script.google.com/macros/s/AKfycbxEb0c-85PU1ePBtkGvvBq8hyMsWvY8-E7SQ5yl6IXsB-eO588vrwQlQtTo8ca46sLI/exec'
+    url: 'https://script.google.com/macros/s/AKfycbx4tMjlGfsopLG2kMztQjxhTAFBNE1069dybARASPfyFJUPVgnFJcjEu42Ijf2yp5EO/exec'
   },
   genap: {
     label: 'Genap',
-    url: 'https://script.google.com/macros/s/AKfycbzfSh28UctTLMcZvESH8Z1f2i5OfatBjM2zFgZpoDB6cAKdqzOWEI3WZ_1rJk2L-tf7/exec'
+    url: 'https://script.google.com/macros/s/AKfycbxUpo6c9d6_926zotV6lj2-rTLD-aL_bxnNh4jXJdOPU5oNEKk6MBJivoe1Vsj20y0P/exec'
   }
 };
 
